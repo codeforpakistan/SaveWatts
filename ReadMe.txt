@@ -1,0 +1,1 @@
+First prototype for an android application that lets users make energy smart decisions when buying electrical appliances by letting them compare factors such as price, life cycle cost and energy consumption

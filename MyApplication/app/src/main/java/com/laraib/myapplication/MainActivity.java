@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     Context context;
 
     ArrayList prgmName;
-    public static int [] prgmImages={R.drawable.images,R.drawable.images1,R.drawable.images2,R.drawable.images3,R.drawable.images4, R.drawable.images5, R.drawable.images6, R.drawable.images7, R.drawable.images8};
-    public static String [] prgmNameList={"Air Conditioners","Fans","Lights","Refrigerators","UPS","Lorem", "Ipsum", "Dolor", "Sit"};
+    public static int [] prgmImages={R.drawable.images,R.drawable.images1,R.drawable.images2,R.drawable.images3,R.drawable.images4};
+    public static String [] prgmNameList={"Air Conditioners","Refrigerator","Washing Machine","Iron","Microwave"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

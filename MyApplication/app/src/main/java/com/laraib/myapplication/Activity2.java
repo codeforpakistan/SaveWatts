@@ -26,8 +26,8 @@ public class Activity2 extends AppCompatActivity {
         {
             context=this;
 
-            int [] prgmImages={R.drawable.images,R.drawable.images1,R.drawable.images2,R.drawable.images3,R.drawable.images4, R.drawable.images5};
-            String [] prgmNameList={"1 Ton","1.5 Tons","2 Tons","2.5 Tons","3 Tons","3.5 Tons"};
+            int [] prgmImages={R.drawable.images5,R.drawable.images6,R.drawable.images7,R.drawable.images8,R.drawable.images9};
+            String [] prgmNameList={"1 Ton","1.5 Tons","2 Tons","2.5 Tons","3 Tons"};
 
             lv=(ListView) findViewById(R.id.listView);
             lv.setAdapter(new CustomAdapter(this, prgmNameList,prgmImages));
@@ -37,8 +37,8 @@ public class Activity2 extends AppCompatActivity {
         {
             context=this;
 
-            int [] prgmImages={R.drawable.images,R.drawable.images1,R.drawable.images2,R.drawable.images3,R.drawable.images4, R.drawable.images5, R.drawable.images6, R.drawable.images7, R.drawable.images8};
-            String [] prgmNameList={"Amet","Consectetur","Adipiscing","Elit","Sed","Lorem", "Ipsum", "Dolor", "Sit"};
+            int [] prgmImages={R.drawable.images5,R.drawable.images6,R.drawable.images7,R.drawable.images8,R.drawable.images9};
+            String [] prgmNameList={"Amet","Consectetur","Adipiscing","Elit","Sed","Lorem"};
 
             lv=(ListView) findViewById(R.id.listView);
             lv.setAdapter(new CustomAdapter(this, prgmNameList,prgmImages));

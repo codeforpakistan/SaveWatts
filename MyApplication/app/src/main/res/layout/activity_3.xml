@@ -19,22 +19,27 @@
         android:id="@+id/layout"
         android:onClick="next">
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Company:"
+            android:text="Company: Haier"
             android:id="@+id/textView" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Model:"
+            android:text="Model:HSU EK12 EU"
             android:id="@+id/textView2" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Price:"
+            android:text="Price: 63000"
             android:id="@+id/textView3" />
 
 
